@@ -56,7 +56,7 @@ const ProfileCard = () => {
               <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
               
               <img 
-                src="/public/profile.jpeg" 
+                src="/profile.jpeg"
                 onError={(e) => {
                   e.target.onerror = null; 
                   e.target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=300&h=300"; 
